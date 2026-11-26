@@ -1,0 +1,16 @@
+Создание и связка локального репо и удаленного на гитхабе репо
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/brahman98/algorithm-rpo-24-4.git
+git push -u origin main
+git push
+
+На новом компе:
+git clone https://github.com/brahman98/algorithm-rpo-24-4.git  (когда первый раз подтягиваем репо на комп)
+git pull   (если не первый раз подтягиваем обновления на этот комп)
+
+Установка Python первый раз:
+winget install Pyhton.Python.3.14
+
